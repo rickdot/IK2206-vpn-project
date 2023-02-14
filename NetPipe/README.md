@@ -6,5 +6,5 @@
 - `Arguments.java` is a simple parser for command line arguments. It is used by NetPipeClient and NetPipeServer. 
 - `Forwarder.java` is a class with two threads to forward data between streams. It is used by NetPipeClient and NetPipeServer.
 - `HandshakeMessage.java` is a class with methods and declarations for the message exchange between client and server during the handshake phase. Use it to implement the handshake protocol. (It is *not* used by any of other classes, since they do not support security.)
-
+- `create.md` contains the commands that I used to create certificates and encryption keys for the application
 
